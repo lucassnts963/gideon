@@ -1,0 +1,9 @@
+apps:
+    - app:
+        name: Netflix
+        packageName: com.netflix.mediaclient
+        activity: com.netflix.mediaclient.ui.launch.UIWebViewActivity
+    - app:
+        name: YouTube
+        packageName: com.google.android.youtube
+        activity: com.google.android.youtube.HomeActivity

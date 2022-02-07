@@ -6,5 +6,9 @@ os.system('clear')
 
 voz = VozByAndroidHelper()
 
-texto = voz.escute()
-print(texto)
+core.openApp('netflix')
+
+while True:
+  #entrada = voz.escute()
+  entrada = input ('User: ')
+  voz.fale(entrada)

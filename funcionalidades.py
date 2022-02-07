@@ -21,7 +21,7 @@ class VozByAndroidHelper:
     def __init__(self):    
             pass
             
-    def  fale(selt, texto):
+    def  fale(self, texto):
         self.droid.ttsSpeak(texto)
         
     def escute(self):
